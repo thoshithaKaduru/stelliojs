@@ -1,0 +1,19 @@
+{
+  "name": "Stello JS",
+  "version": "1.0.0",
+  "description": "Stellio JS is a Visual Programming Language created by Thoshitha Kaduruwewa which is intended to be used to build websites",
+  "main": "ex1.js",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "mz": "^2.7.0",
+    "nearley": "^2.19.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-parser": "nearleyc small.ne -o small.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
